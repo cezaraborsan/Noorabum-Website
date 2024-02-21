@@ -42,14 +42,14 @@ const ProductPage = ({ collectionName, productImages, heading, paragraph, imageO
                             <div className="product-page-large-spacing"></div>
                             <div className="product-page-grid">
                                 {orderedProductImages.map((image, index) => (
-                                    <a key={index} href="#" className="product-page-image-container">
+                                    <div className="product-page-image-container">
                                         <img
                                             src={image}
                                             alt={`Product ${index + 1}`}
                                             className={`product-page-image ${imageLoaded ? 'fade-in' : ''}`}
                                             loading="lazy"
                                         />
-                                    </a>
+                                    </div>
                                 ))}
                             </div>
                         </div>

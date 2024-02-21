@@ -8,11 +8,13 @@ function useRowIntersectionObserver(handleIntersection, threshold, targetRef) {
             threshold,
         });
 
-        if (targetRef.current) {
-            observer.observe(targetRef.current);
+        const currentTargetRef = targetRef.current;
+
+        if (currentTargetRef) {
+            observer.observe(currentTargetRef);
 
             return () => {
-                observer.unobserve(targetRef.current);
+                observer.unobserve(currentTargetRef);
             };
         }
     }, [handleIntersection, threshold, targetRef]);
@@ -31,11 +33,9 @@ function CollectionGallerySection() {
         });
     };
 
-    useRowIntersectionObserver(handleIntersection, 0.4, row1Ref);
-    useRowIntersectionObserver(handleIntersection, 0.4, row2Ref);
-    useRowIntersectionObserver(handleIntersection, 0.4, row3Ref);
-
-
+    useRowIntersectionObserver(handleIntersection, 0.6, row1Ref);
+    useRowIntersectionObserver(handleIntersection, 0.6, row2Ref);
+    useRowIntersectionObserver(handleIntersection, 0.6, row3Ref);
 
     return (
         <div className="collection-page-gallery">
@@ -99,6 +99,7 @@ function CollectionGallerySection() {
                                     </div>
                                 </Link>
                             </div>
+
                             <div className="collection-gallery-row" ref={row2Ref} id="row2">
                                 <Link to="/customized" className="collection-gallery-image">
                                     <div class="content">
@@ -144,7 +145,6 @@ function CollectionGallerySection() {
                             </div>
 
                             <div className="collection-gallery-row" ref={row3Ref} id="row3">
-
                                 <Link to="/grafo" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
