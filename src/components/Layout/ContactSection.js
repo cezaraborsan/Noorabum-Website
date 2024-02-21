@@ -1,8 +1,7 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import IntersectionObserver from "../IntersectionObserver";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTiktok, faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function ContactSection() {
 
@@ -19,7 +18,7 @@ function ContactSection() {
       <div class="collection-container">
         <div class="collection-info">
           <h3 class="collection-heading">Join us on Instagram</h3>
-          <div class="collection-button"><a href="https://www.instagram.com/noorabum/?hl=en" target="_blank" class="collection-link"> <FontAwesomeIcon icon={faInstagram} className="instagram-icon" /> <span>noorabum</span></a></div>
+          <div class="collection-button"><a href="https://www.instagram.com/noorabum/?hl=en" target="_blank" rel="noreferrer" class="collection-link"> <FontAwesomeIcon icon={faInstagram} className="instagram-icon" /> <span>noorabum</span></a></div>
         </div>
       </div>
     </div>

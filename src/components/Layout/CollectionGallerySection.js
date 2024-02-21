@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import LazyLoadedImage from "../LazyLoadedImage";
-import useIntersectionObserver from "../IntersectionObserver";
 import { Link } from "react-router-dom";
 
 function useRowIntersectionObserver(handleIntersection, threshold, targetRef) {

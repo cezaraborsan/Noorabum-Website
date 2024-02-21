@@ -131,9 +131,9 @@ const OrderPage = () => {
                         <h2>Social Media</h2>
                         <p className='order-page-paragraph reused-paragraph'>For additional product photos and customer testimonials, explore our presence on various social media platforms. Engage with our content, discover the latest updates, and witness firsthand the positive experiences shared by our valued customers. Follow us on social media to stay connected and informed about our latest offerings and community interactions.</p>
                         <div className="footer-social-block">
-                            <a> <FontAwesomeIcon icon={faInstagram} /></a>
-                            <a>  <FontAwesomeIcon icon={faFacebookF} /> </a>
-                            <a> <FontAwesomeIcon icon={faTiktok} /></a>
+                            <a href="https://www.instagram.com/noorabum/?hl=en" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faInstagram} /></a>
+                            <a href="https://www.facebook.com/people/Noorabum/100063586802344/" target="_blank" rel="noreferrer">  <FontAwesomeIcon icon={faFacebookF} /> </a>
+                            <a href="https://www.tiktok.com/@silvialucutar" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faTiktok} /></a>
                         </div>
                     </div>
 

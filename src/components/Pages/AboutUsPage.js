@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import Navbar from "../Layout/Navbar.js";
 import Footer from "../Layout/Footer.js";
 import "../../aboutUsPage.css";

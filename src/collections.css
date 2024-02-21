@@ -224,7 +224,6 @@
         padding-bottom: 6rem;
     }
 
-    .collection-gallery-paragraph {}
 }
 
 @media screen and (max-width: 767px) {
@@ -258,10 +257,7 @@
 
 }
 
-@media screen and (max-width: 479px) {
 
-    .collection-gallery-paragraph {}
-}
 
 /* Product Page Layout */
 .product-page {

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import IntersectionObserver from "../IntersectionObserver";
 import { Link } from 'react-router-dom';
 

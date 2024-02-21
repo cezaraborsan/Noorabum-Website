@@ -1,7 +1,7 @@
 // ProductPage.js
 import React, { useState, useEffect } from 'react';
 import '../../collections.css';
-import useIntersectionObserver from "../IntersectionObserver";
+
 
 const ProductPage = ({ collectionName, productImages, heading, paragraph, imageOrder }) => {
     const [imageLoaded, setImageLoaded] = useState(false);

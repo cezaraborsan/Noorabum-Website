@@ -49,9 +49,9 @@ function Footer() {
                 <h6 className="footer-title">Follow us</h6>
                 <div className="footer-social-block">
 
-                  <a href="https://www.instagram.com/noorabum/?hl=en" target="_blank"> <FontAwesomeIcon icon={faInstagram} /></a>
-                  <a href="https://www.facebook.com/people/Noorabum/100063586802344/" target="_blank">  <FontAwesomeIcon icon={faFacebookF} /> </a>
-                  <a href="https://www.tiktok.com/@silvialucutar" target="_blank"> <FontAwesomeIcon icon={faTiktok} /></a>
+                  <a href="https://www.instagram.com/noorabum/?hl=en" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faInstagram} /></a>
+                  <a href="https://www.facebook.com/people/Noorabum/100063586802344/" target="_blank" rel="noreferrer">  <FontAwesomeIcon icon={faFacebookF} /> </a>
+                  <a href="https://www.tiktok.com/@silvialucutar" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faTiktok} /></a>
 
                 </div>
               </div>

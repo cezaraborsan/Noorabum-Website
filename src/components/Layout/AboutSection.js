@@ -1,7 +1,8 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import LazyLoadedImage from "../LazyLoadedImage";
 import useIntersectionObserver from "../IntersectionObserver";
 import { Link } from 'react-router-dom';
+
 
 function AboutSection() {
 
