@@ -1,0 +1,148 @@
+/* ****************** ORDER PAGE  ******************/
+
+.order-page-wrapper {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.order-page {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.order-page-paragraph {
+    padding-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 50%;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem 0.7rem;
+}
+
+label,
+input,
+textarea {
+    background-color: transparent;
+    font-size: 1.1em;
+}
+
+input,
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding-block: 0.5rem;
+
+}
+
+button {
+    background-color: transparent;
+}
+
+.contact-info,
+.product-images {
+    margin-top: 20px;
+}
+
+.thank-you-message {
+    padding: 1rem 0;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.3em;
+    position: absolute;
+
+}
+
+@media screen and (max-width: 991px) {
+    form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    form {
+        width: 100%;
+    }
+
+    .image-slider-container {
+        margin: 5rem auto;
+
+    }
+}
+
+
+/* *************** SLIDER */
+
+
+.image-slider-container {
+    margin: 0 auto;
+    padding-block: 2rem;
+}
+
+.order-page-wrapper h2 {
+    padding: 80px 0 0.5rem;
+}
+
+.slider-image-container {
+    padding-right: 16px;
+    /* Add padding for spacing between images */
+
+}
+
+.slider-image-container img {
+    width: 100%;
+    border-radius: 8px;
+    /* Optional: Add border radius for rounded corners */
+}
+
+/* // SLIDE IN ANIMATION  */
+
+/* Initial state */
+.message-form,
+.contact-info,
+.image-slider-container,
+.order-page-wrapper {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.visible-message-form {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.visible-contact-info {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.visible-image-slider {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.visible-order-page-wrapper {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+}

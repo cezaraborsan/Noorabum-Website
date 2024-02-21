@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop.js";
+import HomePage from "./components/Pages/HomePage.js";
+import AboutPage from "./components/Pages/AboutPage.js";
+import BorisankiCollectionPage from "./components/Pages/CollectionPages/BorisankiCollectionPage.js";
+import BeaCollectionPage from "./components/Pages/CollectionPages/BeaCollectionPage.js";
+import RecycledCollectionPage from "./components/Pages/CollectionPages/RecycledCollectionPage.js";
+import AmiversCollectionPage from "./components/Pages/CollectionPages/AmiversCollectionPage.js";
+import RoqicCollectionPage from "./components/Pages/CollectionPages/RoqicCollectionPage.js";
+import CustomizedCollectionPage from "./components/Pages/CollectionPages/CustomizedCollectionPage.js";
+import HarceapaceaCollectionPage from "./components/Pages/CollectionPages/HarceapaceaCollectionPage.js";
+import GrafoCollectionPage from "./components/Pages/CollectionPages/GrafoCollectionPage.js";
+import AlcazalexCollectionPage from "./components/Pages/CollectionPages/AlcazalexCollectionPage.js";
+import OrderPage from "./components/Pages/OrderPage.js";
+import AboutUsPage from "./components/Pages/AboutUsPage.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ScrollToTop /> {/* Include ScrollToTop at the top level */}
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/borisanki" element={<BorisankiCollectionPage />} />
+        <Route path="/beahopes" element={<BeaCollectionPage />} />
+        <Route path="/recycled" element={<RecycledCollectionPage />} />
+        <Route path="/amivers" element={<AmiversCollectionPage />} />
+        <Route path="/roqic" element={<RoqicCollectionPage />} />
+        <Route path="/customized" element={<CustomizedCollectionPage />} />
+        <Route path="/harceapacea" element={<HarceapaceaCollectionPage />} />
+        <Route path="/grafo" element={<GrafoCollectionPage />} />
+        <Route path="/alcazalex" element={<AlcazalexCollectionPage />} />
+        <Route path="/order" element={<OrderPage />} />
+        <Route path="/aboutus" element={<AboutUsPage />} />
+      </Routes>
+    </Router>
   );
 }
 

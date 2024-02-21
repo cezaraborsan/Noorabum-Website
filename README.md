@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Japanese Restaurant Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a landing page for a Japanese restaurant built using React. The design inspiration for this project came from a project available in the [Figma Community](https://www.figma.com/community/file/1200799657217214030/Food-Website).
 
-## Available Scripts
+## Motivation
 
-In the project directory, you can run:
+I created this landing page as a way to practice my CSS skills and gain experience in React development. The goal was to replicate the design from the Figma project while adding my own touch and incorporating additional tech features.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive layout and design
+- Navigation bar with menu links
+- Menu page with tabs for different food categories
+- Contact page with reservation information, opening hours, and catering details
+- Main button to navigate to the menu page
+- Footer with contact information and links
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install the dependencies by running the command: `npm install`.
+4. Start the development server with: `npm start`.
+5. Open the application in your browser at: `http://localhost:3000`.
 
-### `npm run build`
+Feel free to modify the project to fit your own ideas and requirements.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- React Router
+- CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Design inspiration: [Figma Community Project](https://www.figma.com/community/file/1200799657217214030/Food-Website)
+- SVG icons: [FontAwesome](https://fontawesome.com/)
