@@ -89,11 +89,11 @@
 }
 
 .collection-section {
-    background-image: url("/Users/cezara/Desktop/noorabum-website/public/images/alcazalex-collection.jpeg");
+    background-image: url("../public/images/alcazalex-collection.jpeg");
 }
 
 .contact-section {
-    background-image: url("/Users/cezara/Desktop/noorabum-website/public/images/contact-us.jpeg");
+    background-image: url("../public/images/contact-us.jpeg");
 }
 
 .collection-text {
