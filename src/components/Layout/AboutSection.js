@@ -19,13 +19,8 @@ function AboutSection() {
     <section class="about-section" ref={targetRef}>
       <div class="about-content">
         <div class="about-grid">
-          {/* <img src="https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65ca417946f3048ad666230c_377506499_825469602915926_3097131784666052457_n.jpg"
-            sizes="(max-width: 479px) 81vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1919px) 57vw, 100vw"
-            srcset="https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65ca417946f3048ad666230c_377506499_825469602915926_3097131784666052457_n-p-500.jpg 500w, https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65ca417946f3048ad666230c_377506499_825469602915926_3097131784666052457_n-p-800.jpg 800w, https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65ca417946f3048ad666230c_377506499_825469602915926_3097131784666052457_n-p-1080.jpg 1080w, https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65ca417946f3048ad666230c_377506499_825469602915926_3097131784666052457_n.jpg 1440w"
-            alt="" class="about-image" /> */}
-
           <LazyLoadedImage
-            src="https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65ca417946f3048ad666230c_377506499_825469602915926_3097131784666052457_n.jpg"
+            src="./images/about-me-img.jpeg"
             alt="fanny bag"
             className="about-image"
           />

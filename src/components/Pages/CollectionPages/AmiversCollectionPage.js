@@ -23,9 +23,9 @@ function AmiversCollectionPage() {
         <>
             <Navbar />
             <ProductPage
-                collectionName="amivers"
+                collectionName="Amivers"
                 productImages={amiversProductImages}
-                heading="Beahopes Collection"
+                heading="Amivers Collection"
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Amivers Collection.Lorem ipsum dolor sit amet, consectetur adipiscing elit for Amivers Collection.Lorem ipsum dolor sit amet, consectetur adipiscing elit for Amivers Collection."
                 imageOrder={customImageOrder}
             />

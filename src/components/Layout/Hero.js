@@ -33,16 +33,12 @@ export default function Hero() {
             </div>
           </div>
           <div class="hero-image-wrapper">
-            {/* <img class="hero-image" src="images/hero-img.jpg" alt="Header image"
-              sizes="(max-width: 479px) 87vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1919px) 42vw, 542.21875px"
-            /> */}
             <LazyLoadedImage
               src="images/hero-img.jpg"
               alt="Header image"
               className="hero-image"
             />
           </div>
-
 
         </div>
       </div>

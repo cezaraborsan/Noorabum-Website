@@ -20,12 +20,11 @@ function Footer() {
           <div className="footer-container">
             <a href="/" className="footer-logo">
               <img
-                src="https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65cbc8dc1835f949da87711b_logo.png"
+                src="./images/footer-logo.png"
                 loading="lazy"
                 width="60"
                 sizes="60px"
                 alt="Noorabum Logo"
-                srcSet="https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65cbc8dc1835f949da87711b_logo-p-500.png 500w, https://assets-global.website-files.com/65ca2d6db2eed79dd11bc551/65cbc8dc1835f949da87711b_logo.png 858w"
                 className="footer-logo-image"
               />
             </a>
