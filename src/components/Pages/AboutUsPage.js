@@ -25,11 +25,11 @@ function AboutPage() {
     });
 
     const profileSection2Ref = useIntersectionObserver(handleIntersection, {
-        threshold: 0.6,
+        threshold: 0.4,
     });
 
     const profileSection3Ref = useIntersectionObserver(handleIntersection, {
-        threshold: 0.5,
+        threshold: 0.4,
     });
 
 

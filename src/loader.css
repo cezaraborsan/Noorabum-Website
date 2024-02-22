@@ -1,0 +1,53 @@
+/* ************************ Loader Component Styles ************************* */
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0E8D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1000000;
+    transition: transform 1s ease;
+}
+
+.loader.loaded {
+    overflow: visible;
+}
+
+.marquee {
+    gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    position: relative;
+    padding-block: 1rem;
+
+}
+
+.marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: 0;
+    padding-block: 1rem;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 1rem));
+    }
+}
+
+.scroll {
+    animation: scroll 10s linear infinite;
+}

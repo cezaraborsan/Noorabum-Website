@@ -1,5 +1,5 @@
 // App.js
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop.js";
 import HomePage from "./components/Pages/HomePage.js";
@@ -16,10 +16,14 @@ import AlcazalexCollectionPage from "./components/Pages/CollectionPages/Alcazale
 import OrderPage from "./components/Pages/OrderPage.js";
 import AboutUsPage from "./components/Pages/AboutUsPage.js";
 
+import Loader from './components/Loader.js';
+
 function App() {
+
   return (
     <Router>
-      <ScrollToTop /> {/* Include ScrollToTop at the top level */}
+      <ScrollToTop />
+      <Loader />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -34,7 +38,9 @@ function App() {
         <Route path="/alcazalex" element={<AlcazalexCollectionPage />} />
         <Route path="/order" element={<OrderPage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
+
       </Routes>
+
     </Router>
   );
 }

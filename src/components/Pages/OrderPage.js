@@ -35,19 +35,19 @@ const OrderPage = () => {
     }
 
     const orderPageWrapperRef = useIntersectionObserver(handleIntersection, {
-        threshold: 0.3,
+        threshold: 0.4,
     });
 
     const contactInfoRef = useIntersectionObserver(handleIntersection, {
-        threshold: 0.3,
+        threshold: 0.4,
     });
 
     const messageFormRef = useIntersectionObserver(handleIntersection, {
-        threshold: 0.3,
+        threshold: 0.4,
     });
 
     const imageSliderRef = useIntersectionObserver(handleIntersection, {
-        threshold: 0.3,
+        threshold: 0.4,
     });
 
 
