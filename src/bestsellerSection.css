@@ -1,0 +1,117 @@
+/* BESTSELLER SECTION */
+.bestseller-section {
+    padding-block: 80px;
+    position: relative;
+}
+
+.bestseller-heading {
+    margin-bottom: 16px;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.8);
+    /* Updated color */
+}
+
+
+.bestseller-container {
+    width: 100%;
+}
+
+.bestseller-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    /* Adjusted gap for better spacing */
+}
+
+.bestseller-products {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 50px;
+    display: flex;
+    /* Updated to flex for better responsiveness */
+    flex-wrap: wrap;
+    /* Added for responsiveness */
+}
+
+.bestseller-product {
+    width: 30%;
+    margin-bottom: 20px;
+    /* Added for spacing */
+}
+
+.product-block {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.product-image {
+    margin-bottom: 18px;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    /* Updated to full width */
+}
+
+.product-info {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    bottom: 32px;
+    opacity: 0;
+    transition: all 0.4s ease;
+    color: white;
+    padding-left: 1rem;
+}
+
+.product-block:hover .product-image {
+    filter: brightness(50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.product-block:hover .product-info {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.product-heading {
+    margin: 0;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.product-paragraph {
+    color: rgb(255, 255, 255, 0.6);
+    font-size: 24px;
+}
+
+@media screen and (max-width: 991px) {
+    .bestseller-product {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bestseller-section {
+        padding-block: 60px;
+    }
+
+    .bestseller-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .bestseller-product {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .bestseller-heading {
+        margin-bottom: 24px;
+    }
+
+    .bestseller-product {
+        width: 100%;
+    }
+}

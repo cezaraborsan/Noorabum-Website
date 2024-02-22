@@ -26,7 +26,7 @@ function RoqicCollectionPage() {
                 collectionName="Roqic"
                 productImages={roqicProductImages}
                 heading="Roqic Collection"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Roqic Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Roqic Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Roqic Collection."
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection."
                 imageOrder={customImageOrder}
             />
             <Footer />

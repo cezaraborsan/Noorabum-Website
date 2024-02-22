@@ -1,4 +1,5 @@
 import React from "react";
+import "../../homePageGallerySection.css"
 import IntersectionObserver from "../IntersectionObserver";
 import LazyLoadedImage from "../LazyLoadedImage";
 import { Link } from 'react-router-dom';

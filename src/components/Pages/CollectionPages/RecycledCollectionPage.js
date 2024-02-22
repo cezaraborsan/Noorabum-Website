@@ -26,7 +26,7 @@ function RecycledCollectionPage() {
                 collectionName="Recycled Material"
                 productImages={beaProductImages}
                 heading="Recycled Material Collection"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Recycled Material Collection."
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection."
                 imageOrder={customImageOrder}
             />
             <Footer />

@@ -26,7 +26,7 @@ function CustomizedCollectionPage() {
                 collectionName="Customized"
                 productImages={customizedProductImages}
                 heading="Customized Collection"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Customized Collection."
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection."
                 imageOrder={customImageOrder}
             />
             <Footer />

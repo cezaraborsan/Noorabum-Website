@@ -26,7 +26,7 @@ function AmiversCollectionPage() {
                 collectionName="Amivers"
                 productImages={amiversProductImages}
                 heading="Amivers Collection"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Amivers Collection.Lorem ipsum dolor sit amet, consectetur adipiscing elit for Amivers Collection.Lorem ipsum dolor sit amet, consectetur adipiscing elit for Amivers Collection."
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection."
                 imageOrder={customImageOrder}
             />
             <Footer />

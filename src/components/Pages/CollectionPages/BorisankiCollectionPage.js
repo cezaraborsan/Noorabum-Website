@@ -26,7 +26,7 @@ function BorisankiCollectionPage() {
                 collectionName="Borisanki"
                 productImages={borisankiProductImages}
                 heading="Borisanki Collection"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Borisanki Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Borisanki Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Borisanki Collection."
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection."
                 imageOrder={customImageOrder}
             />
             <Footer />

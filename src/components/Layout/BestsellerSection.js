@@ -1,4 +1,5 @@
 import React from "react";
+import "../../bestsellerSection.css"
 import LazyLoadedImage from "../LazyLoadedImage";
 import useIntersectionObserver from "../IntersectionObserver";
 
@@ -15,7 +16,7 @@ function BestsellerSection() {
   return (
     <section class="bestseller-section" ref={targetRef}>
       <div class="bestseller-container">
-        <h3 class="bestseller-heading"> <span>Discover</span>Bestseller</h3>
+        <h3 class="bestseller-heading"> <span className="section-label">Discover</span>Bestseller</h3>
         <div class="bestseller-products">
           <div class="w-slider-mask bestseller-flex">
             <div class="bestseller-product">

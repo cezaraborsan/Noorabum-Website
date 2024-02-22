@@ -26,7 +26,7 @@ function BeaCollectionPage() {
                 collectionName="Beahopes"
                 productImages={beaProductImages}
                 heading="Beahopes Collection"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Beahopes Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Beahopes Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Beahopes Collection."
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection."
                 imageOrder={customImageOrder}
             />
             <Footer />

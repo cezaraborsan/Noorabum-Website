@@ -26,7 +26,7 @@ function GrafoCollectionPage() {
                 collectionName="Grafo"
                 productImages={grafoProductImages}
                 heading="Grafo Collection"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Grafo Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Grafo Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Grafo Collection."
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection."
                 imageOrder={customImageOrder}
             />
             <Footer />

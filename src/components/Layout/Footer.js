@@ -1,4 +1,5 @@
 import React from "react";
+import "../../footer.css"
 import { Link } from "react-router-dom";
 import useIntersectionObserver from "../IntersectionObserver";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -1,4 +1,5 @@
 import React from "react";
+import "../../hero.css"
 import LazyLoadedImage from "../LazyLoadedImage";
 import useIntersectionObserver from "../IntersectionObserver";
 import { Link } from 'react-router-dom';

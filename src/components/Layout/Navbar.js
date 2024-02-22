@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../../navbar.css"
 import useIntersectionObserver from "../IntersectionObserver";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

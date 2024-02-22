@@ -26,7 +26,7 @@ function HarceapaceaCollectionPage() {
                 collectionName="Harceapacea"
                 productImages={harceapaceaProductImages}
                 heading="Harceapacea Collection"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Harceapacea Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Harceapacea Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Harceapacea Collection."
+                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection. Lorem ipsum dolor sit amet, consectetur adipiscing elit for Alcazalex Collection."
                 imageOrder={customImageOrder}
             />
             <Footer />

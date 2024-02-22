@@ -1,4 +1,5 @@
 import React from "react";
+import "../../homePageAboutMeSection.css"
 import LazyLoadedImage from "../LazyLoadedImage";
 import useIntersectionObserver from "../IntersectionObserver";
 import { Link } from 'react-router-dom';
@@ -26,7 +27,7 @@ function AboutSection() {
           />
           <div class="about-info">
             <div class="about-info-content">
-              <h3 class="about-heading"> <span class="about-info-label" >About</span> Who am I</h3>
+              <h3 class="about-heading"> <span class="section-label" >About</span> Who am I</h3>
               <p class="about-paragraph">My name is Silvia, the person behind this page. Noorabum came
                 to
                 life three years ago in a small village in Suceava, alongside my mother, from whom I
@@ -45,7 +46,7 @@ function AboutSection() {
           </div>
         </div>
       </div>
-    </section>
+    </section >
 
   );
 }

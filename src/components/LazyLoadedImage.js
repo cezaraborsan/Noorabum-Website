@@ -25,7 +25,7 @@ const LazyImage = ({ src, alt, className }) => {
                 observer.unobserve(currentImageRef);
             }
         };
-    }, [imageRef]); // Include imageRef in the dependency array
+    }, [imageRef]);
 
     return (
         <img
