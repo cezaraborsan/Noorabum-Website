@@ -71,7 +71,7 @@ h6 {
   line-height: 1.6;
 }
 
-/* Example of media query for adjusting font sizes at different breakpoints */
+/* Media query at different breakpoints */
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 4em;

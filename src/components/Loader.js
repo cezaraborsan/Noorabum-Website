@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "../loader.css";
 
 function Loader() {
-    const [loaded, setLoaded] = useState(false);
+    const [loaded] = useState(false);
 
     useEffect(() => {
         const loaderTimeout = setTimeout(() => {

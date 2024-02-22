@@ -8,7 +8,7 @@
     margin-bottom: 16px;
     line-height: normal;
     color: rgba(0, 0, 0, 0.8);
-    /* Updated color */
+
 }
 
 
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    /* Adjusted gap for better spacing */
+
 }
 
 .bestseller-products {
@@ -28,15 +28,15 @@
     background-color: rgba(0, 0, 0, 0);
     margin-top: 50px;
     display: flex;
-    /* Updated to flex for better responsiveness */
+
     flex-wrap: wrap;
-    /* Added for responsiveness */
+
 }
 
 .bestseller-product {
     width: 30%;
     margin-bottom: 20px;
-    /* Added for spacing */
+
 }
 
 .product-block {

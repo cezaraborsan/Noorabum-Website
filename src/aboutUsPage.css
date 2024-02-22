@@ -11,7 +11,6 @@
 
 }
 
-
 .profile-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -38,6 +37,18 @@
 
 .profile-paragraph {
     max-width: 90%;
+}
+
+/* Initial state */
+.profile-section {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.visible-about-section {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s, transform 0.5s;
 }
 
 /* Media Query for smaller screens */
@@ -68,16 +79,4 @@
     .profile-paragraph {
         max-width: 100%;
     }
-}
-
-/* Initial state */
-.profile-section {
-    opacity: 0;
-    transform: translateY(50px);
-}
-
-.visible-about-section {
-    opacity: 1;
-    transform: translateY(0);
-    transition: all 0.5s, transform 0.5s;
 }
