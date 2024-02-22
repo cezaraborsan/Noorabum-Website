@@ -10,7 +10,7 @@
 .gallery-overview {
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
-    padding: 40px 80px;
+    padding-block: 80px;
     position: relative;
     margin-left: auto;
     margin-right: auto;

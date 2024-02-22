@@ -31,23 +31,22 @@ const OrderPage = () => {
             target.classList.add("visible-image-slider");
         } else if (sectionId === 'orderPageWrapper') {
             target.classList.add("visible-order-page-wrapper");
-        };
+        }
     }
-
     const orderPageWrapperRef = useIntersectionObserver(handleIntersection, {
-        threshold: 0.4,
+        threshold: 0.2,
     });
 
     const contactInfoRef = useIntersectionObserver(handleIntersection, {
-        threshold: 0.4,
+        threshold: 0.2,
     });
 
     const messageFormRef = useIntersectionObserver(handleIntersection, {
-        threshold: 0.4,
+        threshold: 0.2,
     });
 
     const imageSliderRef = useIntersectionObserver(handleIntersection, {
-        threshold: 0.4,
+        threshold: 0.2,
     });
 
 

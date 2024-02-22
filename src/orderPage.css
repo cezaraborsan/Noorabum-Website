@@ -61,7 +61,6 @@ button {
     color: rgba(0, 0, 0, 0.7);
     font-size: 1.3em;
     position: absolute;
-
 }
 
 @media screen and (max-width: 991px) {
@@ -102,47 +101,44 @@ button {
 
 .slider-image-container {
     padding-right: 16px;
-    /* Add padding for spacing between images */
+
 
 }
 
 .slider-image-container img {
     width: 100%;
     border-radius: 8px;
-    /* Optional: Add border radius for rounded corners */
+
 }
 
 /* // SLIDE IN ANIMATION  */
 
-/* Initial state */
 .message-form,
 .contact-info,
 .image-slider-container,
 .order-page-wrapper {
     opacity: 0;
     transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+
 }
 
 .visible-message-form {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 0.5s, transform 0.5s;
 }
 
 .visible-contact-info {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 0.5s, transform 0.5s;
 }
 
 .visible-image-slider {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 0.5s, transform 0.5s;
 }
 
 .visible-order-page-wrapper {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 0.5s, transform 0.5s;
 }
