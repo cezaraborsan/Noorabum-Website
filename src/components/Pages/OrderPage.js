@@ -58,6 +58,20 @@ const OrderPage = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                },
+            },
+        ],
     };
 
     const images = ['./images/clients-1.png', './images/clients-2.png', './images/clients-6.png', './images/clients-8.png', './images/clients-10.png', './images/clients-3.jpeg', './images/clients-11.png', './images/clients-9.png', './images/clients-12.png', './images/clients-4.jpeg',];

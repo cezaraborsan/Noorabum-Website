@@ -33,7 +33,7 @@ function CollectionGallerySection() {
         });
     };
 
-    useRowIntersectionObserver(handleIntersection, 0.4, row1Ref);
+    useRowIntersectionObserver(handleIntersection, 0.5, row1Ref);
     useRowIntersectionObserver(handleIntersection, 0.4, row2Ref);
     useRowIntersectionObserver(handleIntersection, 0.4, row3Ref);
 

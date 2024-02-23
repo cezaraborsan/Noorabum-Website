@@ -15,7 +15,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .profile-section h2 {
