@@ -7,13 +7,20 @@
 .order-page {
     max-width: 80rem;
     margin: 0 auto;
-    padding: 62px 20px 20px;
+    padding: 5.5rem 20px 20px;
 
 }
 
 .order-page-paragraph {
     padding-bottom: 1rem;
 }
+
+.contact-social-block {
+    padding-bottom: 1rem;
+}
+
+
+
 
 form {
     display: flex;
@@ -51,10 +58,6 @@ button {
     background-color: transparent;
 }
 
-.contact-info,
-.product-images {
-    margin-top: 20px;
-}
 
 .thank-you-message {
     padding: 1rem 0;
@@ -96,7 +99,7 @@ button {
 }
 
 .order-page-wrapper h2 {
-    padding: 80px 0 0.5rem;
+    padding: 40px 0 0.5rem;
 }
 
 .slider-image-container {
@@ -109,6 +112,10 @@ button {
     width: 100%;
     border-radius: 8px;
 
+}
+
+.slick-arrow {
+    display: none !important;
 }
 
 /* // SLIDE IN ANIMATION  */
