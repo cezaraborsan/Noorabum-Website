@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import LazyLoadedImage from "../LazyLoadedImage";
+// import LazyLoadedImage from "../LazyLoadedImage";
 import { Link } from "react-router-dom";
 
 function useRowIntersectionObserver(handleIntersection, threshold, targetRef) {
@@ -60,7 +60,7 @@ function CollectionGallerySection() {
                                 <Link to="/borisanki" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/borisanki-collection-thumbnail.jpeg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"
@@ -74,7 +74,7 @@ function CollectionGallerySection() {
                                 <Link to="/amivers" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/amivers-collection-thumbnail.jpeg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"
@@ -88,7 +88,7 @@ function CollectionGallerySection() {
                                 <Link to="/beahopes" className="collection-gallery-image ">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/beahopes-collection-thumbnail.jpeg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"
@@ -104,7 +104,7 @@ function CollectionGallerySection() {
                                 <Link to="/customized" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/painted-collection-thumbnail.jpg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"
@@ -118,7 +118,7 @@ function CollectionGallerySection() {
                                 <Link to="/recycled" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/recycled-collection-thumbnail.jpeg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"
@@ -132,7 +132,7 @@ function CollectionGallerySection() {
                                 <Link to="/roqic" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/roqic-collection-thumbnail.jpeg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"
@@ -148,7 +148,7 @@ function CollectionGallerySection() {
                                 <Link to="/grafo" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/grafo-collection-thumbnail.jpeg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"
@@ -162,7 +162,7 @@ function CollectionGallerySection() {
                                 <Link to="/alcazalex" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/alcazalex-collection-thumbnail.jpeg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"
@@ -176,7 +176,7 @@ function CollectionGallerySection() {
                                 <Link to="/harceapacea" className="collection-gallery-image">
                                     <div class="content">
                                         <div class="content-overlay"></div>
-                                        <LazyLoadedImage
+                                        <img
                                             src="./images/harceapacea-collection-thumbnail.jpeg"
                                             alt="fanny bag"
                                             className="collection-thumbnail content-image"

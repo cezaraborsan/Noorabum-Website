@@ -34,6 +34,7 @@ const LazyImage = ({ src, alt, className }) => {
             alt={alt}
             style={{ opacity: isIntersecting ? 1 : 0, transition: 'opacity 0.8s' }}
             className={className}
+            loading='lazy'
         />
     );
 };

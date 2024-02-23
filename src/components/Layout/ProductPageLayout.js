@@ -1,19 +1,17 @@
 // ProductPage.js
 import React, { useState, useEffect } from 'react';
 import '../../collections.css';
+import LazyLoadedImage from "../LazyLoadedImage";
+
 
 const ProductPage = ({ collectionName, productImages, heading, paragraph, imageOrder }) => {
     const [imageLoaded, setImageLoaded] = useState(false);
 
-    const resolutions = [1, 2, 3];
-
-    const orderedProductImages = imageOrder
-        ? imageOrder.map(index => resolutions.map(res => `${productImages[index]}?w=${res * 100}`))
-        : resolutions.map(res => productImages.map(image => `${image}?w=${res * 100}`));
+    const orderedProductImages = imageOrder ? imageOrder.map(index => productImages[index]) : productImages;
 
     useEffect(() => {
         // Set imageLoaded to true once all images are loaded
-        const imagesToLoad = orderedProductImages.flat().length;
+        const imagesToLoad = orderedProductImages.length;
         let loadedImages = 0;
 
         const handleImageLoad = () => {
@@ -23,15 +21,16 @@ const ProductPage = ({ collectionName, productImages, heading, paragraph, imageO
             }
         };
 
-        orderedProductImages.flat().forEach((image) => {
+        orderedProductImages.forEach((image) => {
             const img = new Image();
             img.onload = handleImageLoad;
             img.src = image;
         });
     }, [orderedProductImages]);
 
+
     return (
-        <div className={`product-page ${imageLoaded ? 'fade-in' : ''}`}>
+        <div className={`product-page ${imageLoaded ? 'fade-in' : ''}`} >
             <div className="product-page-wrapper">
                 <div className="product-page-container">
                     <div className="product-page-section">
@@ -41,11 +40,10 @@ const ProductPage = ({ collectionName, productImages, heading, paragraph, imageO
                                 <p className="product-page-paragraph reused-paragraph">{paragraph}</p>
                             </div>
                             <div className="product-page-grid">
-                                {orderedProductImages.map((resolutions, index) => (
-                                    <div key={index} className="product-page-image-container">
-                                        <img
-                                            srcSet={resolutions.join(', ')}
-                                            sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33.3vw"
+                                {orderedProductImages.map((image, index) => (
+                                    <div className="product-page-image-container">
+                                        <LazyLoadedImage
+                                            src={image}
                                             alt={`Product ${index + 1}`}
                                             className={`product-page-image ${imageLoaded ? 'fade-in' : ''}`}
                                             loading="lazy"
