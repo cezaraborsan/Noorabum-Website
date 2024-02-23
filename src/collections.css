@@ -225,10 +225,7 @@
         font-size: 2.75rem;
     }
 
-    .collection-gallery-section {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-    }
+
 
 }
 
@@ -254,13 +251,6 @@
     .collection-gallery-heading {
         font-size: 2.25rem;
     }
-
-    .collection-gallery-section {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
-
-
 }
 
 
@@ -349,10 +339,7 @@
         font-size: 2.75rem;
     }
 
-    .product-page-section {
-        padding-top: 6rem;
-        padding-bottom: 4rem;
-    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -374,10 +361,6 @@
         font-size: 2.25rem;
     }
 
-    .product-page-section {
-        padding-top: 4rem;
-        padding-bottom: 2rem;
-    }
 }
 
 @media screen and (max-width: 479px) {
