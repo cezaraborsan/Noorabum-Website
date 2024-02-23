@@ -24,6 +24,7 @@ function AboutSection() {
             src="./images/about-me-img.jpeg"
             alt="fanny bag"
             className="about-image"
+            loading="lazy"
           />
           <div class="about-info">
             <div class="about-info-content">

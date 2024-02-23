@@ -36,25 +36,29 @@ function GallerySection() {
             <LazyLoadedImage
               src="images/g5.jpg"
               alt="fanny bag"
-              className="gallery-image shadow-two"
+              className="gallery-image"
+              loading="lazy"
             />
 
             <LazyLoadedImage
               src="images/g6.jpg"
               alt="fanny bag"
-              className="gallery-image shadow-two"
+              className="gallery-image"
+              loading="lazy"
             />
 
             <LazyLoadedImage
               src="images/g7.jpg"
               alt="fanny bag"
-              className="gallery-image shadow-two"
+              className="gallery-image"
+              loading="lazy"
             />
 
             <LazyLoadedImage
               src="images/g8.jpg"
               alt="fanny bag"
-              className="gallery-image shadow-two"
+              className="gallery-image"
+              loading="lazy"
             />
           </div>
 
@@ -62,25 +66,29 @@ function GallerySection() {
             <LazyLoadedImage
               src="images/g1.jpg"
               alt="fanny bag"
-              className="gallery-image shadow-two"
+              className="gallery-image"
+              loading="lazy"
             />
 
             <LazyLoadedImage
               src="images/g2.jpg"
               alt="fanny bag"
-              className="gallery-image shadow-two"
+              className="gallery-image"
+              loading="lazy"
             />
 
             <LazyLoadedImage
               src="images/g3.jpg"
               alt="fanny bag"
-              className="gallery-image shadow-two"
+              className="gallery-image"
+              loading="lazy"
             />
 
             <LazyLoadedImage
               src="images/g4.jpg"
               alt="fanny bag"
-              className="gallery-image shadow-two"
+              className="gallery-image"
+              loading="lazy"
             />
 
           </div>

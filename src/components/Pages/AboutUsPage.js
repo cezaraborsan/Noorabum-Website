@@ -4,6 +4,7 @@ import Footer from "../Layout/Footer.js";
 import "../../aboutUsPage.css";
 import LazyLoadedImage from "../LazyLoadedImage";
 import useIntersectionObserver from "../IntersectionObserver";
+import LazyLoad from 'react-lazyload';
 
 function AboutPage() {
 
@@ -54,11 +55,14 @@ function AboutPage() {
                             </p>
                         </div>
                         <div className="image">
-                            <LazyLoadedImage
-                                className="profile-image"
-                                src="./images/about-me-page-1.png"
-                                alt="Profile"
-                            />
+                            <LazyLoad height={200} offset={100}>
+                                <LazyLoadedImage
+                                    className="profile-image"
+                                    src="./images/about-me-page-1.png"
+                                    alt="Profile"
+                                    loading="lazy"
+                                />
+                            </LazyLoad>
                         </div>
                     </div>
 
@@ -68,11 +72,15 @@ function AboutPage() {
                         ref={profileSection2Ref}
                     >
                         <div className="image">
-                            <LazyLoadedImage
-                                className="product-image"
-                                src="./images/about-me-page-2.png"
-                                alt="Product"
-                            />
+                            <LazyLoad height={200} offset={100}>
+                                <LazyLoadedImage
+                                    className="product-image"
+                                    src="./images/about-me-page-2.png"
+                                    alt="Product"
+                                    loading="lazy"
+
+                                />
+                            </LazyLoad>
                         </div>
                         <div className="text">
                             <h2>Creative Journey</h2>
@@ -112,6 +120,7 @@ function AboutPage() {
                                 className="inspiration-image"
                                 src="./images/about-me-page-3.png"
                                 alt="Inspiration"
+                                loading="lazy"
                             />
                         </div>
                     </div>

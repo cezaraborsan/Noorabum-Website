@@ -38,6 +38,7 @@ export default function Hero() {
               src="images/hero-img.jpg"
               alt="Header image"
               className="hero-image"
+              loading="lazy"
             />
           </div>
 

@@ -27,6 +27,7 @@ function BestsellerSection() {
                     src="./images/bestseller-harceapacea.jpeg"
                     alt="fanny bag"
                     className="collection-thumbnail content-image"
+                    loading="lazy"
                   />
                   <div class="content-details fadeIn-top">
                     <h5>Harceapacea</h5>
@@ -43,6 +44,7 @@ function BestsellerSection() {
                     src="./images/bestseller-beahopes.jpeg"
                     alt="fanny bag"
                     className="collection-thumbnail content-image"
+                    loading="lazy"
                   />
                   <div class="content-details fadeIn-top">
                     <h5>Beahopes</h5>
@@ -59,6 +61,7 @@ function BestsellerSection() {
                     src="./images/bestseller-grafo.jpeg"
                     alt="fanny bag"
                     className="collection-thumbnail content-image"
+                    loading="lazy"
                   />
                   <div class="content-details fadeIn-top">
                     <h5>Grafo</h5>

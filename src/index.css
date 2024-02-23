@@ -256,3 +256,25 @@ section {
 .fadeIn-top {
   top: 20%;
 }
+
+.simple-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  /* Loader background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+  z-index: 1000000;
+  /* Allow interaction with elements behind the loader */
+}
+
+.simple-loader.visible {
+  opacity: 1;
+}
