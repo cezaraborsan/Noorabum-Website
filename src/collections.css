@@ -105,8 +105,6 @@
         padding-top: 240px;
     }
 
-
-
     @media screen and (max-width: 767px) {
         .collection-info {
             text-align: center;
@@ -222,10 +220,8 @@
     }
 
     .collection-gallery-heading {
-        font-size: 2.75rem;
+        font-size: 2.8rem;
     }
-
-
 
 }
 
