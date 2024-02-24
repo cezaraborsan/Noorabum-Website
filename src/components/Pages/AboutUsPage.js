@@ -4,7 +4,7 @@ import Footer from "../Layout/Footer.js";
 import "../../aboutUsPage.css";
 import LazyLoadedImage from "../LazyLoadedImage";
 import useIntersectionObserver from "../IntersectionObserver";
-import LazyLoad from 'react-lazyload';
+
 
 function AboutPage() {
 
@@ -55,14 +55,14 @@ function AboutPage() {
                             </p>
                         </div>
                         <div className="image">
-                            <LazyLoad height={200} offset={100}>
-                                <LazyLoadedImage
-                                    className="profile-image"
-                                    src="./images/about-me-page-1.png"
-                                    alt="Profile"
-                                    loading="lazy"
-                                />
-                            </LazyLoad>
+
+                            <LazyLoadedImage
+                                className="profile-image"
+                                src="./images/about-me-page-1.png"
+                                alt="Profile"
+                                loading="lazy"
+                            />
+
                         </div>
                     </div>
 
@@ -72,15 +72,15 @@ function AboutPage() {
                         ref={profileSection2Ref}
                     >
                         <div className="image">
-                            <LazyLoad height={200} offset={100}>
-                                <LazyLoadedImage
-                                    className="product-image"
-                                    src="./images/about-me-page-2.png"
-                                    alt="Product"
-                                    loading="lazy"
 
-                                />
-                            </LazyLoad>
+                            <LazyLoadedImage
+                                className="product-image"
+                                src="./images/about-me-page-2.png"
+                                alt="Product"
+                                loading="lazy"
+
+                            />
+
                         </div>
                         <div className="text">
                             <h2>Creative Journey</h2>
