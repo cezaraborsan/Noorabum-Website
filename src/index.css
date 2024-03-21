@@ -140,9 +140,10 @@ section {
 .reused-paragraph {
   font-size: 1.1em;
   color: rgba(0, 0, 0, 0.5);
-  line-height: 24px;
+
   max-width: 50%;
 }
+
 
 
 @media screen and (max-width: 991px) {
@@ -275,4 +276,9 @@ section {
 
 .simple-loader.visible {
   opacity: 1;
+}
+
+
+p {
+  line-height: 28px !important;
 }
