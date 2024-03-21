@@ -129,7 +129,7 @@ function CollectionGallerySection() {
                                             loading="lazy"
                                         />
                                         <div class="content-details fadeIn-top">
-                                            <h5>Recycled Collection</h5>
+                                            <h5>Minimalist Collection</h5>
                                         </div>
                                     </div>
                                 </Link>

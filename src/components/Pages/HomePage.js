@@ -8,6 +8,7 @@ import ContactSection from "../Layout/ContactSection.js"
 import BestsellerSection from "../Layout/BestsellerSection.js"
 import CopyRights from "../Layout/CopyRights.js"
 import AboutSection from "../Layout/AboutSection.js"
+import FlowerSection from "../Layout/FlowerSection.js";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <GallerySection />
       <CollectionSection />
       <BestsellerSection />
+      <FlowerSection />
       <AboutSection />
       <ContactSection />
       <Footer />

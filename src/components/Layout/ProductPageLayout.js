@@ -16,7 +16,7 @@ const ProductPage = ({ collectionName, productImages, heading, paragraph, imageO
                         <div className="product-page-gallery">
                             <div className="product-page-info">
                                 <h2 className="product-page-heading">{collectionName} Collection</h2>
-                                <p className="product-page-paragraph reused-paragraph">{paragraph}</p>
+                                {/* <p className="product-page-paragraph reused-paragraph">{paragraph}</p> */}
                             </div>
                             <div className="product-page-grid">
                                 {orderedProductImages.map((image, index) => (

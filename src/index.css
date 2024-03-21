@@ -145,8 +145,6 @@ section {
 }
 
 
-
-
 @media screen and (max-width: 991px) {
   .reused-paragraph {
     max-width: 70%;
@@ -160,7 +158,6 @@ section {
 }
 
 @media screen and (max-width: 479px) {
-
   section {
     padding-inline: 10px;
   }

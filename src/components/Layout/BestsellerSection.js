@@ -31,7 +31,7 @@ function BestsellerSection() {
                   />
                   <div class="content-details fadeIn-top">
                     <h5>Harceapacea</h5>
-                    <p class="product-paragraph">40€</p>
+                    {/* <p class="product-paragraph">40€</p> */}
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ function BestsellerSection() {
                   />
                   <div class="content-details fadeIn-top">
                     <h5>Beahopes</h5>
-                    <p class="product-paragraph">45€</p>
+                    {/* <p class="product-paragraph">45€</p> */}
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ function BestsellerSection() {
                   />
                   <div class="content-details fadeIn-top">
                     <h5>Grafo</h5>
-                    <p class="product-paragraph">40€</p>
+                    {/* <p class="product-paragraph">40€</p> */}
                   </div>
                 </div>
               </div>
