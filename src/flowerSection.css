@@ -108,8 +108,12 @@
 }
 
 
-
 @media screen and (max-width: 479px) {
+    .flower-content {
+
+        padding-block: 0rem;
+
+    }
 
     .flower-grid {
         display: flex;
