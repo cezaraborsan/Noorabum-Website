@@ -20,6 +20,9 @@ function ContactSection() {
         <div class="collection-container">
           <div class="collection-info">
             <h3 class="collection-heading">Join us on Instagram</h3>
+            <div className="collection-paragraph">
+              <div className="collection-text">Come join us on Instagram! See more pics, stay updated on our collections, and be part of our community. Follow us now for daily inspiration! #FollowUs #StayUpdated #Instagram</div>
+            </div>
             <div class="collection-button"><a href="https://www.instagram.com/noorabum/?hl=en" target="_blank" rel="noreferrer" class="collection-link"> <FontAwesomeIcon icon={faInstagram} className="instagram-icon" /> <span>noorabum</span></a></div>
           </div>
         </div>
