@@ -24,7 +24,6 @@ function GallerySection() {
               Elevate
               your style with our unique waist bags adorned with water-resistant watercolor designs, each
               infused with distinctive personalities. </p>
-
             <div class="main-button">
               <div class="button-wrapper">
                 <Link to="/order" className="button-primary" >Order Yours</Link>

@@ -46,7 +46,7 @@
 }
 
 .collection-info {
-    z-index: 1;
+    z-index: 2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -64,10 +64,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 600px;
 }
 
 .collection-overlay {
-    background-image: linear-gradient(rgba(19, 19, 19, 0.1) 22%, rgba(19, 19, 19, 0.66) 77%, rgba(19, 19, 19, 0.8));
+    /* background-image: linear-gradient(rgba(19, 19, 19, 0.1) 22%, rgba(19, 19, 19, 0.66) 77%, rgba(19, 19, 19, 0.8)); */
+    background-color: rgba(0, 0, 0, 0.4);
+
     position: absolute;
     top: 0;
     bottom: 0;
@@ -88,9 +91,9 @@
     align-items: center;
 }
 
-.collection-section {
+/* .collection-section {
     background-image: url("../public/images/alcazalex-collection.jpeg");
-}
+} */
 
 .contact-section {
     background-image: url("../public/images/contact-us.jpeg");
